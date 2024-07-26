@@ -1,0 +1,104 @@
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+.lead {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.main-card {
+  padding-bottom: 0px !important;
+}
+
+.btn-primary {
+  background-color: #1B3252;
+  border-color: #1B3252;
+}
+
+.custom-input:hover :active {
+  color: white;
+  background-color: #1B3252;
+}
+
+.custom-input {
+  color: white !important;
+  background-color: #1B3252 !important;
+}
+
+.custom-input::placeholder {
+  color: white !important;
+  opacity: 1;
+}
+
+.btn-primary:hover {
+  color: inherit;
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  color: inherit;
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.btn-primary:active {
+  color: inherit !important;
+  background-color: inherit !important;
+  border-color: inherit !important;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #E0D9CF;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-img-list {
+  height: 200px;
+  object-fit: cover;
+  width: 260px;
+  padding: 14px;
+  border-radius: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    padding: 20px 10px;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+  }
+
+  .btn {
+    font-size: 0.875rem;
+  }
+}
+
+
+/* for loader */
+
+.loader {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
